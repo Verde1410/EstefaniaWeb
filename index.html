@@ -61,7 +61,118 @@
         <li class="nav-item mx-2"><a class="nav-link" href="#">Contacto</a></li>
     </ul>
 </div>
+<div class="container py-5">
 
+  <!-- Fila 1: Título + Carrusel -->
+  <div class="row align-items-center mb-5">
+    <!-- Columna título -->
+    <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+      <h2 class="titulo-principal">Nueva Ropa</h2>
+      <p class="subtitulo-principal">Descubrí las últimas tendencias de la temporada</p>
+    </div>
+
+    <!-- Columna carrusel -->
+    <div class="col-md-8">
+      <div id="carouselRopa" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner rounded shadow">
+          <div class="carousel-item active">
+            <img src="/assets/imagenes/9665752.jpg" class="d-block w-100" alt="Ropa 1">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/imagenes/mujer-eligiendo-una-camisa-blanca.jpg" class="d-block w-100" alt="Ropa 2">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/imagenes/moda-rapida-vs-moda-lenta-y-sostenible.jpg" class="d-block w-100" alt="Ropa 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselRopa" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselRopa" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fila 2: Carrusel horizontal de productos -->
+  <div class="row">
+    <h3 class="titulo-seccion">Productos Destacados</h3>
+    <div id="carouselProductos" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center gap-3">
+            <div class="card" style="width: 14rem;">
+              <img src="/assets/imagenes/zip0_3fnm_210608.jpg" class="card-img-top" alt="Producto 1">
+              <div class="card-body text-center">
+                <h6 class="titulo-card">Campera</h6>
+                <p class="precio-card">$15.000</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="/assets/imagenes/hombre-vestido-con-pantalones-marrones-de-cerca.jpg" class="card-img-top" alt="Producto 2">
+              <div class="card-body text-center">
+                <h6 class="titulo-card">Pantalón</h6>
+                <p class="precio-card">$12.500</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="/assets/imagenes/9834242.jpg" class="card-img-top" alt="Producto 3">
+              <div class="card-body text-center">
+                <h6 class="titulo-card">Remera</h6>
+                <p class="precio-card">$7.800</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center gap-3">
+            <div class="card" style="width: 14rem;">
+              <img src="/assets/imagenes/sesion-de-estudio-de-ropa-de-moda-masculina-camisa-blanca-basica.jpg" class="card-img-top" alt="Producto 4">
+              <div class="card-body text-center">
+                <h6 class="titulo-card">Camisa</h6>
+                <p class="precio-card">$10.500</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="/assets/imagenes/retrato-de-joven-hermosa-nina-sonriente-en-vestido-rosa-claro-de-moda-verano-mujer-sexy-despreocupada-posando-modelo-positivo-divirtiendose.jpg" class="card-img-top" alt="Producto 5">
+              <div class="card-body text-center">
+                <h6 class="titulo-card">Vestido</h6>
+                <p class="precio-card">$18.000</p>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+              <img src="/assets/imagenes/sesion-de-ropa-de-sueter-negro-con-espacio-de-diseno.jpg" class="card-img-top" alt="Producto 6">
+              <div class="card-body text-center">
+                <h6 class="titulo-card">Buzo</h6>
+                <p class="precio-card">$14.200</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselProductos" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+</div>
+
+</div>
+<!-- Sección: Catálogos -->
+<div class="row seccion-catalogos text-center my-5">
+  <h3 class="titulo-seccion-catalogos mb-4">Vení a ver nuestros catálogos</h3>
+  <div class="d-flex justify-content-center flex-wrap gap-3">
+    <a href="catalogo-perfumes.html" class="btn-catalogo">Perfumes</a>
+    <a href="catalogo-indumentaria.html" class="btn-catalogo">Indumentaria</a>
+    <a href="catalogo-calzado.html" class="btn-catalogo">Calzado</a>
+  </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
