@@ -266,3 +266,53 @@
     width: 80%;
   }
 }
+
+/* === FOOTER === */
+.footer {
+  background-color: #111;
+  color: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-titulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.footer-subtitulo {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.footer-texto {
+  color: #ccc;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.footer-link {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.4rem;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #007bff;
+}
+
+/* Responsive footer */
+@media (max-width: 576px) {
+  .footer {
+    text-align: center;
+  }
+  .footer-subtitulo {
+    margin-top: 1rem;
+  }
+}
+
