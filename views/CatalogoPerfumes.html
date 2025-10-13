@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+</head>
+<body>
+    <div class="container-fluid header">
+    <div class="row align-items-start">
+        <!-- Buscador -->
+        <div class="col-3 col-md-3 d-flex justify-content-start mb-2 mb-md-0">
+            <form class="d-flex w-100">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success btn-search" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+        </div>
+
+        <!-- Titulo -->
+        <div class="col-6 col-md-6 text-center mb-2 mb-md-0">
+            <h1 class="titulo1 text-center">Estefania Indumentaria y Moda</h1>
+            <p class="texto-cursiva">Moda y tendencias para todos los estilos.</p>
+        </div>
+
+        <!-- Iconos -->
+        <div class="col-3 col-md-3 text-end d-flex justify-content-end">
+            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://wa.me/1234567890" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="/login.html" class="btn-user">
+                <i class="bi bi-person-circle"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- NAVBAR -->
+<div class="container-fluid navbar-container navegar">
+    <ul class="navbar-items mx-auto">
+        <li class="nav-item mx-2"><a class="nav-link" href="#">Inicio</a></li>
+        <li class="nav-item mx-2 dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="tiendaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tienda
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="tiendaDropdown">
+                <li><a class="dropdown-item" href="#">Indumentaria</a></li>
+                <li><a class="dropdown-item" href="#">Calzado</a></li>
+                <li><a class="dropdown-item" href="#">Perfumes</a></li>
+            </ul>
+        </li>
+        <li class="nav-item mx-2"><a class="nav-link" href="#">Quiénes somos</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="#">Contacto</a></li>
+    </ul>
+</div>
+<div class="container py-5">
+</body>
+</html>
